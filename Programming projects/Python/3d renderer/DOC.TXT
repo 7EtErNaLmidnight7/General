@@ -1,0 +1,35 @@
+This is a 3d renderer in python turtle, the code was made by my friend, and I made this DOC!
+
+You can us it to make cool shapes, sadly I haven't added the rotation feature yet, that may be a bit complicated and will
+require my amazing organisation skills
+
+IMPORTANT: Start every new file with the setup() and end with end()
+If you wish to change the camera position, this can be done by going into the renderer code
+The "connect()" function connects all the points together that you put into a list,
+    e.g. connect([point1, point2, point3])
+
+Making points:
+    make an x, y and z co-ordinate for your point,
+
+        e.g. point1 = point(100, 50, 30)
+
+    NOTE, you need to set the point to a variable
+
+Making a line:
+    use the line function to draw a line between 2 points, like this,
+
+        e.g. line(line1, line2)
+
+
+A full code example would look like this,
+
+    setup()
+
+    line1 = point(0, 0, 0)
+    line2 = point(100, 50, 75)
+
+    line(line1, line2)
+
+    end()
+
+Good luck!
